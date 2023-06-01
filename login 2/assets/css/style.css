@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg");
+    background-size: cover;
+}
+
+button,
+label {
+    cursor: pointer;
+}
+
+.form {
+    padding: 0 480px;
+}
+
+.form .all {
+    background-color: #F1F8FD;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.all .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .all .title {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    margin-bottom: 20px;
+}
+
+.inputs label {
+    opacity: 0.800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+}
+
+.all input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.all input[type="password"] {
+    margin-bottom: 15px;
+}
+
+.all input {
+    padding: 13px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.all .checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkbox a {
+    color: #20B2F5;
+    text-decoration: none;
+}
+
+.checkbox label {
+    font-size: 14px;
+    line-height: 28px;
+    color: #8b8b8b;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+}
+
+.sign-btn {
+    background-color: #0796D7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.social-btn .fb {
+    background-color: #3161A1;
+    border: none;
+    color: white;
+    width: 155px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.social-btn .tw {
+    background-color: #00A9F3;
+    border: none;
+    color: white;
+    width: 155px;
+    height: 35px;
+    border-radius: 5px;
+}
